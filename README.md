@@ -34,3 +34,10 @@ To scan a local network for open ports and understand network service exposure a
 **Disclaimer**
 
 Scan was performed on my own lab/local network. Results are sanitized.
+## 📸 Screenshots
+
+### Nmap Scan
+![Nmap Scan](nmap.png)
+
+### Wireshark Analysis
+![Wireshark Analysis](Wireshark.png)
