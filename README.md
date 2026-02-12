@@ -16,6 +16,7 @@ To scan a local network for open ports and understand network service exposure a
    sudo nmap -sS <LOCAL_NETWORK_RANGE> -oN scan_results.txt
 4. Analyzed open ports and services.
 5. Sanitized sensitive IP/MAC data before sharing.
+
 **Results Summary**
 •	Multiple hosts discovered on the local network
 •	One host had TCP port 53 (DNS) open
