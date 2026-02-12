@@ -17,19 +17,20 @@ To scan a local network for open ports and understand network service exposure a
 4. Analyzed open ports and services.
 5. Sanitized sensitive IP/MAC data before sharing.
 
-**Results Summary**
+## Results Summary
 
-•	Multiple hosts discovered on the local network
+- Multiple hosts discovered on the local network
+- One host had TCP port 53 (DNS) open
+- Other hosts had filtered or closed ports
 
-•	One host had TCP port 53 (DNS) open
+---
 
-•	Other hosts had filtered or closed ports
+## 🔐 Security Implications
 
-**Security Notes**
-
-•	Open ports expose services that may be attacked if misconfigured
-
-•	Firewalls and service hardening help reduce exposure
+- Port 53 (DNS) was open — DNS servers can be targeted for spoofing attacks if misconfigured.
+- Open ports increase the attack surface of a system.
+- Services running on open ports may be vulnerable if not properly secured.
+- Proper firewall configuration and service hardening reduce these risks.
 
 **Disclaimer**
 
